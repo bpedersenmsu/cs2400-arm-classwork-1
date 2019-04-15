@@ -18,6 +18,9 @@ Follow the instructions for each of the following code samples in [Compliler Exp
    
 2. [malloc](https://godbolt.org/z/kAZX7x)
    1. How are the arguments passed to `malloc` and `free`?
+   
+   It looks like the arguement that is passed is loaded into R0 before branching to malloc or free.
+   
    2. Research the implementation (source code) of `malloc` and `free`.
    
 3. [malloc array](https://godbolt.org/z/bBl0zx)
