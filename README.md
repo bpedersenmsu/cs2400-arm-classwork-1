@@ -25,6 +25,7 @@ Follow the instructions for each of the following code samples in [Compliler Exp
    
 3. [malloc array](https://godbolt.org/z/bBl0zx)
    1. How does this case differ from the previous one?
+   It is running it for an array of ints vs a single int.
    2. [**hard**] Write your own tiny `malloc` library by declaring a large `FILL` area and writing a `malloc` and a `free` subroutines that manage allocations to that memory area. 
       1. `malloc` works approximately as follows:
          - it takes as argument the number of bytes requested
