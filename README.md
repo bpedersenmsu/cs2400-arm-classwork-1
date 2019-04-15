@@ -8,10 +8,14 @@ Follow the instructions for each of the following code samples in [Compliler Exp
 
 1. [printf](https://godbolt.org/z/y2YKew)
    1. What is the library function that is called?
+   
    printf() is called stdio.h
+   
    2. Research the implementation (source code) of this function.
    3. Find out if the program directly executes the output operation or it makes a *system call* to the operating system.
+   
    It is a system call.
+   
 2. [malloc](https://godbolt.org/z/kAZX7x)
    1. How are the arguments passed to `malloc` and `free`?
    2. Research the implementation (source code) of `malloc` and `free`.
